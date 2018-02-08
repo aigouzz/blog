@@ -7,6 +7,9 @@ var app = new Vue({
         name:'anything you want you can ask for it!',
         time:''
     },
+    components:{
+        'all':() => import('../block/app.vue')
+    },
     methods:{
         clickMeta(){
             this.name = '';
@@ -21,4 +24,3 @@ var app = new Vue({
         }
     }
 });
-Vue.component("app",() => import('../block/app.vue'));
