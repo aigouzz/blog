@@ -188,7 +188,7 @@ table {
   border-spacing: 0; }
 
 body {
-  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
   color: #333;
   background-color: #fff;
   min-width: 1226px; }
@@ -213,3 +213,19 @@ a:hover {
 
 .hide {
   display: none !important; }
+
+.header {
+  height: 40px;
+  border-bottom: 1px solid #dee; }
+  .header .h-i {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 10px;
+    background: url("../img/ico.ico") no-repeat;
+    background-size: 100% 100%; }
+
+.footer {
+  line-height: 24px;
+  font-size: 18px; }
