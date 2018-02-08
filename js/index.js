@@ -1,4 +1,4 @@
-let all = require('block/app');
+
 
 var app = new Vue({
     el:'#app',
