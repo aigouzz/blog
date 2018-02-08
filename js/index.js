@@ -11,10 +11,10 @@ var app = new Vue({
         }
     },
     computed:{
-        title(){
+        big(){
             return this.title;
         },
-        name(){
+        other(){
             return this.name + this.time;
         }
     }
