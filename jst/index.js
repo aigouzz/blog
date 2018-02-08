@@ -21,6 +21,6 @@ var app = new Vue({
         }
     }
 });
-Vue.component("all",function (resolve,reject) {
+Vue.component("app",function (resolve,reject) {
     require(['../block/app'],resolve);
 });
