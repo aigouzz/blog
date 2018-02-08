@@ -21,6 +21,4 @@ var app = new Vue({
         }
     }
 });
-Vue.component("app",function (resolve,reject) {
-    require(['../block/app'],resolve);
-});
+Vue.component("app",() => import('../block/app.vue'));
