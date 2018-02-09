@@ -1,4 +1,4 @@
-let all = import('../block/app');
+let all = import('../block/app.vue');
 
 var app = new Vue({
     el:'#app',
