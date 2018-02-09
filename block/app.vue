@@ -32,7 +32,7 @@ import top from '@/block/top';
 import foot from '@/block/footer';
 
 export default {
-    name:'app',
+    name:'all',
     components:{
         top,foot
     }
