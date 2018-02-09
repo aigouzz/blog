@@ -28,8 +28,8 @@
     <foot></foot>
 </template>
 <script>
-import top from '@/block/top';
-import foot from '@/block/footer';
+import top from './top';
+import foot from './footer';
 
 export default {
     name:'all',
