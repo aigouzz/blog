@@ -1,5 +1,5 @@
 let all = import('../block/app.vue');
-
+Vue.use(all);
 var app = new Vue({
     el:'#app',
     data:{
