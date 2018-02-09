@@ -1,4 +1,4 @@
-
+let all = import('@/block/app');
 
 var app = new Vue({
     el:'#app',
@@ -8,7 +8,7 @@ var app = new Vue({
         time:''
     },
     components:{
-        'all':() => import('../block/app.vue')
+        'all':all
     },
     methods:{
         clickMeta(){
